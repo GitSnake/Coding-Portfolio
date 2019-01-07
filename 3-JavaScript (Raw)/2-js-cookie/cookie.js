@@ -1,2 +1,6 @@
-// created cookie
-document.cookie = "username = John Doe; expires = Tues 1 Jan 2030 12:00:00 UTC; path=/";
+// create a function that sorees the name of the visitor in a cookie variable
+function setCookie(cname, cvalue, exdays) {
+  let d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  let expires
+}
